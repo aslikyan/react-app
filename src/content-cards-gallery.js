@@ -30,7 +30,7 @@ class ContentCardsGallery extends Component {
       imgUrl: 'https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/bed5c69134c84d62952da93700e0a970_9366/Ultraboost_LTD_Shoes_Blue_BB7801_01_standard.jpg',
       price: '130$'
     },{
-      name: 'STAN SMITH GOLD',
+      name: 'STAN SMITH G',
       imgUrl: 'https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/55d18099c5ca40fcbb88a93700e0320e_9366/Ultraboost_LTD_Shoes_White_BB7800_01_standard.jpg',
       price: '150$'
     },{

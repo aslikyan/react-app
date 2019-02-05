@@ -36,6 +36,8 @@
 }
 .content-text {
   margin: auto;
+  background-color: white;
+  border-right: 1px solid lightgray;
 }
 .footer {
   height: 58px;
@@ -184,6 +186,7 @@ h3 {
     border: 1px solid lightgrey;
     margin-right: 75px;
     margin-bottom: 20px;
+    background-color: #d9e0ff;
 }
 .add-to-cart {
     padding-bottom: 12px;
