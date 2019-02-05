@@ -18,6 +18,36 @@
   color: white;
 }
 
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: #8cdabf;
+  margin: auto;
+}
+.header-text {
+  margin: auto;
+  color: #dedede;
+}
+.content {
+  height: 800px;
+  width: 100%;
+  background-color: #f3eded;
+  margin: auto;
+}
+.content-text {
+  margin: auto;
+}
+.footer {
+  height: 58px;
+  width: 100%;
+  background-color: #555;
+  /*background-color: #558474;*/
+  margin: auto;
+}
+.footer-text{
+  margin: auto;
+  color: white;
+}
 .App-link {
   color: #61dafb;
 }
@@ -29,4 +59,156 @@
   to {
     transform: rotate(360deg);
   }
+}
+.homepage-slick {
+  width: 600px;
+}
+.container {
+  margin: 0 auto;
+  padding: 40px;
+  width: 80%;
+  color: #333;
+  background: #419be0;
+}
+
+h3 {
+  background: #ffdfc1;
+  color: #fff;
+  font-size: 36px;
+  line-height: 200px;
+  margin: 10px;
+  padding: 2%;
+  position: relative;
+  text-align: center;
+}
+.variable-width .slick-slide p {
+  background: #ffd198;
+  height: 100px;
+  color: #fff;
+  margin: 5px;
+  line-height: 100px;
+  text-align: center;
+}
+.center .slick-center h3 {
+  color: #e67e22;
+  opacity: 1;
+  transform: scale(1.08);
+}
+.center h3 {
+  opacity: 0.8;
+  transition: all 300ms ease;
+}
+.content {
+  padding: 0px;
+  margin: auto;
+  width: 100%;
+}
+.slick-slide .image {
+  padding: 10px;
+}
+.slick-slide img {
+  /*border: 5px solid #fff;*/
+  display: block;
+  margin: auto;
+}
+.slick-slide img.slick-loading {
+  border: 0;
+}
+.slick-slider {
+  margin: 30px auto 50px;
+}
+.slick-dots {
+  margin-left: 0;
+}
+.slick-thumb {
+  bottom: -45px;
+}
+.slick-thumb li {
+  width: 60px;
+  height: 45px;
+}
+.slick-thumb li img {
+  filter: grayscale(100%);
+}
+.slick-thumb li.slick-active img {
+  filter: grayscale(0%);
+}
+@media (max-width: 768px) {
+  h3 {
+    font-size: 24px;
+  }
+  .center {
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+  .center .slick-center h3 {
+    color: #e67e22;
+    opacity: 1;
+    transform: scale(1);
+  }
+  .center h3 {
+    opacity: 0.8;
+    transform: scale(0.95);
+    transition: all 300ms ease;
+  }
+}
+.slick-vertical .slick-slide {
+  height: 300px;
+}
+.slick-arrow {
+  background-color: grey;
+  /* color: black; */
+}
+.slick-arrow:hover {
+  background-color: grey;
+}
+.slick-prev {
+  z-index: 100;
+  left: 20px !important;
+}
+.slick-next {
+  z-index: 100;
+  right: 20px !important;
+}
+.img {
+  height: 500px;
+  width: 520px;
+}
+.list-img {
+    width: 100%;
+}
+.content-gallery {
+    padding-top: 28px;
+}
+.item {
+    border: 1px solid lightgrey;
+    margin-right: 75px;
+    margin-bottom: 20px;
+}
+.add-to-cart {
+    padding-bottom: 12px;
+    padding-top: 4px;
+    text-align: center;
+}
+.price-row {
+    text-align: center;
+}
+.item-name {
+    text-align: center;
+}
+.header {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,207cca+37,207cca+37,2989d8+50,7db9e8+100 */
+    background: #1e5799; /* Old browsers */
+    background: -moz-linear-gradient(top, #1e5799 0%, #207cca 37%, #207cca 37%, #2989d8 50%, #7db9e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1e5799 0%,#207cca 37%,#207cca 37%,#2989d8 50%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1e5799 0%,#207cca 37%,#207cca 37%,#2989d8 50%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+.footer{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+1,2989d8+55,207cca+74,207cca+74,1e5799+100 */
+    background: #7db9e8; /* Old browsers */
+    background: -moz-linear-gradient(top, #7db9e8 1%, #2989d8 55%, #207cca 74%, #207cca 74%, #1e5799 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #7db9e8 1%,#2989d8 55%,#207cca 74%,#207cca 74%,#1e5799 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #7db9e8 1%,#2989d8 55%,#207cca 74%,#207cca 74%,#1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */
 }
